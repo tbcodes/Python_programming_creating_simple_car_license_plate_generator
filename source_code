@@ -17,3 +17,5 @@ for i in range(total_licenses):
   letter2 = random.choice(alphabet)
   letter3 = random.choice(alphabet)
   print("{}{}{}{} - {}{}{}".format(num1,num2,num3,num4,letter1,letter2,letter3))
+  # You can also use F-String, if you want (that's more 'Pythonic')
+  print(f"{num1}{num2}{num3}{num4} - {letter1}{letter2}{letter3}")
